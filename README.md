@@ -12,4 +12,4 @@ Berisi Project-project untuk praktikum mata kuliah Pemrograman Mobile Semester G
 
 Tampilan screenshoot
 
-![Screenshot Pertemuan 1](docs/Pertemuan2/soal1.png)
+![Screenshot Pertemuan 1](docs/image.png)
