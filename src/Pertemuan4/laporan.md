@@ -256,7 +256,7 @@ Apa yang terjadi ? Jika terjadi error, silakan perbaiki.
 Gantilah salah satu isi record dengan nama dan NIM Anda, lalu dokumentasikan hasilnya dan buat laporannya!
 
 #### Pengerjaan:
-><img src="/docs/Pertemuan4/Praktikum4/perbaikan5-2.png" alt="Perbaikan-Langkah3" width="600"/><br>
+><img src="/docs/Pertemuan4/Praktikum5/pengerjaan5-2.png" alt="Perbaikan-Langkah3" width="600"/><br>
 
 #### Penjelasan:
 > Pada Langkah 5, variabel mahasiswa2 dideklarasikan sebagai tuple yang menyimpan nama, NIM, dan beberapa elemen lainnya. Dengan menggunakan notasi $ untuk akses elemen, `print(mahasiswa2.$1);` mencetak nama `Triyana Dewi Fatmawati`, `print(mahasiswa2.a);` mencetak NIM `2241720206`, dan `print(mahasiswa2.b);` mencetak nilai `true`. Selain itu, `print(mahasiswa2.$2);` mencetak elemen terakhir dalam tuple, yaitu `last`. Seluruh akses elemen berhasil dilakukan tanpa error, menunjukkan bahwa tuple berfungsi dengan baik untuk menyimpan dan mengakses data.
@@ -331,7 +331,7 @@ Gantilah salah satu isi record dengan nama dan NIM Anda, lalu dokumentasikan has
     1. Dikirim sebagai argumen ke fungsi lain.
     2. Ditetapkan ke variabel.
     3. Dikembalikan sebagai nilai dari fungsi lain.
-
+    <br>
     > Contoh Sintaksnya:
     ``` dart
         // 1. Melewatkan Fungsi sebagai Parameter
@@ -375,7 +375,7 @@ Gantilah salah satu isi record dengan nama dan NIM Anda, lalu dokumentasikan has
     - Nol atau lebih parameter yang dipisahkan oleh koma.
     - Anotasi tipe opsional di antara tanda kurung.
     - Blok kode yang berisi logika fungsi.
-
+    <br>
     > Contoh Sintaksnya:
     ``` dart
         const list = ['apples', 'bananas', 'oranges'];
