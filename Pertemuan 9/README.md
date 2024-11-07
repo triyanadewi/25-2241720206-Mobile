@@ -19,8 +19,12 @@
     ![Hasil Deploy Praktikum 1](kamera_flutter/images/deploy2.jpg) 
     <br>
 
+    Laporan Praktikum 1: https://github.com/triyanadewi/25-2241720206-Mobile/tree/main/Pertemuan%209/kamera_flutter/README.md
+  
 - **Hasil Praktikum 2** <br>
-![Hasil Deploy Praktikum 2](photo_filter_carousel/images/deploy.gif) 
+![Hasil Deploy Praktikum 2](photo_filter_carousel/images/deploy.gif)
+
+  Laporan Praktikum 2: https://github.com/triyanadewi/25-2241720206-Mobile/blob/main/Pertemuan%209/photo_filter_carousel/README.md
 
 
 ### 2. Gabungkan hasil praktikum 1 dengan hasil praktikum 2 sehingga setelah melakukan pengambilan foto, dapat dibuat filter carouselnya!
