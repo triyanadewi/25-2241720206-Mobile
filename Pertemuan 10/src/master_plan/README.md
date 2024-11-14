@@ -272,11 +272,7 @@ Pada langkah 3, dua method (completedCount dan completenessMessage) ditambahkan 
 4. Lakukan capture hasil dari Langkah 9 berupa GIF, kemudian jelaskan apa yang telah Anda buat! <br>
 **Jawaban:** <br>
 ![Hasil Praktikum 2](../../docs/Praktikum2/hasilp2.gif) <br>
-Pada praktikum ini, saya membuat aplikasi to-do list sederhana di Flutter yang menampilkan progres tugas. Menggunakan InheritedNotifier dalam PlanProvider, aplikasi ini memisahkan data dari tampilan, memungkinkan update otomatis setiap kali data berubah.
-<br>
-Di tampilan utama (PlanScreen), pengguna dapat menambah tugas dan menandai tugas selesai. Progres tugas ditampilkan di bagian bawah menggunakan completenessMessage, yang diperbarui secara otomatis setiap kali ada perubahan pada daftar tugas.
-<br>
-Dengan memanfaatkan PlanProvider, aplikasi ini menjadi lebih modular dan responsif terhadap perubahan data.
+Pada praktikum ini, saya membuat aplikasi to-do list sederhana di Flutter yang menampilkan progres tugas. Menggunakan InheritedNotifier dalam PlanProvider, aplikasi ini memisahkan data dari tampilan, memungkinkan update otomatis setiap kali data berubah. Di tampilan utama (PlanScreen), pengguna dapat menambah tugas dan menandai tugas selesai. Progres tugas ditampilkan di bagian bawah menggunakan completenessMessage, yang diperbarui secara otomatis setiap kali ada perubahan pada daftar tugas. Dengan memanfaatkan PlanProvider, aplikasi ini menjadi lebih modular dan responsif terhadap perubahan data.
 
 <br>
 
@@ -396,41 +392,35 @@ Terakhir, **run** atau tekan **F5** untuk melihat hasilnya jika memang belum run
 <br>
 
 2. Berdasarkan Praktikum 3 yang telah Anda lakukan, jelaskan maksud dari gambar diagram berikut ini!
-![Soal 2 Tugas Praktikum 3](../../docs/Praktikum3/soal2.png)
-<br>
+![Soal 2 Tugas Praktikum 3](../../docs/Praktikum3/soal2.png) <br>
+**Jawaban:** <br>
+Diagram ini menunjukkan dua layar utama dalam aplikasi Flutter, yaitu layar pembuat rencana (PlanCreatorScreen) dan layar detail rencana (PlanScreen), serta bagaimana aplikasi berpindah dari satu layar ke layar lainnya menggunakan Navigator.push. <br>
 
-    **Jawaban:** <br>
-    Diagram ini menunjukkan dua layar utama dalam aplikasi Flutter, yaitu layar pembuat rencana (PlanCreatorScreen) dan layar detail rencana (PlanScreen), serta bagaimana aplikasi berpindah dari satu layar ke layar lainnya menggunakan Navigator.push.
-    <br>
-
-    Layar Kiri - PlanCreatorScreen:
+    **Layar Kiri - PlanCreatorScreen:**
     - Layar ini adalah layar awal di mana pengguna bisa membuat daftar rencana (plans).
     - MaterialApp adalah root aplikasi yang membungkus seluruh widget.
     - PlanProvider mengelola data semua rencana yang telah dibuat agar bisa diakses di seluruh aplikasi.
     - PlanCreatorScreen adalah layar untuk menambah rencana baru. Di dalamnya ada:
-        - TextField untuk memasukkan nama rencana.
-        - ListView (dibungkus oleh Expanded) untuk menampilkan daftar rencana yang telah dibuat.
-    <br>
-
+    - TextField untuk memasukkan nama rencana.
+    - ListView (dibungkus oleh Expanded) untuk menampilkan daftar rencana yang telah dibuat. <br>
+    
     **Proses Navigasi - Navigator Push:**
     - Ketika pengguna memilih rencana dari daftar di PlanCreatorScreen, aplikasi akan menggunakan Navigator.push untuk berpindah ke PlanScreen.
-    - Navigator.push berarti kita berpindah ke layar baru, yaitu layar detail dari rencana yang dipilih.
-    <br>
-
+    - Navigator.push berarti kita berpindah ke layar baru, yaitu layar detail dari rencana yang dipilih. <br>
+    
     **Layar Kanan - PlanScreen:**
     - Ini adalah layar detail yang menunjukkan isi dari rencana yang dipilih oleh pengguna.
     - PlanScreen adalah halaman yang menampilkan detail dari satu rencana yang dipilih. Di dalamnya ada:
-        - ListView untuk menampilkan daftar tugas dalam rencana.
-        - SafeArea dengan teks yang menunjukkan kemajuan atau status rencana.
+    - ListView untuk menampilkan daftar tugas dalam rencana.
+    - SafeArea dengan teks yang menunjukkan kemajuan atau status rencana.
     <br>
-
     Jadi, diagram ini memperlihatkan dua layar utama aplikasi dan bagaimana data rencana dipindahkan dari satu layar ke layar lainnya melalui navigasi.
 
 <br>
 
 3. Lakukan capture hasil dari Langkah 14 berupa GIF, kemudian jelaskan apa yang telah Anda buat! <br>
 **Jawaban:** <br>
-![Hasil Praktikum 3](../../docs/Praktikum3/hasilp3.gif)
+![Hasil Praktikum 3](../../docs/Praktikum3/hasilp3.gif) <br>
 Pada praktikum 3 ini, saya telah membuat aplikasi Flutter dengan dua layar utama untuk mengelola rencana (plans) dan tugas-tugas di dalamnya, menggunakan InheritedWidget untuk manajemen state. Berikut fiturnya:
     - PlanCreatorScreen (Layar Utama): Pengguna bisa menambahkan rencana baru melalui kolom input teks. Daftar rencana ditampilkan di bawahnya, dan setiap rencana bisa dipilih untuk melihat detailnya.
     - PlanScreen (Layar Detail): Menampilkan tugas-tugas dari rencana yang dipilih. Pengguna bisa menandai tugas sebagai selesai, menambah tugas baru, atau mengedit deskripsi tugas.
