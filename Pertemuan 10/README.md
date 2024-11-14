@@ -7,7 +7,7 @@
 > Nomor : 25 <br/>
 
 ---
-**Link Laporan Praktikum dan Tugas:** 
+**Link Laporan Praktikum dan Tugas:** https://github.com/triyanadewi/25-2241720206-Mobile/blob/main/Pertemuan%2010/src/master_plan/README.md
 
 ## **Hasil Akhir Praktikum 1**
 <img src="docs/Praktikum1/hasilp1.gif" width="400"/>
