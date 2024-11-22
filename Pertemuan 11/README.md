@@ -19,7 +19,7 @@ Tambahkan **nama panggilan** Anda pada `title` app sebagai identitas hasil peker
 
 ### **Soal 2** <br>
 - Carilah judul buku favorit Anda di Google Books, lalu ganti ID buku pada variabel path di kode tersebut. Caranya ambil di URL browser Anda seperti gambar berikut ini. <br>
-<img src="docs/Praktikum1/Soal2_1.png" width="400"/>
+<img src="docs/Praktikum1/Soal2_1.png" width="400"/> <br>
 - Kemudian cobalah akses di browser URI tersebut dengan lengkap seperti ini. Jika menampilkan data JSON, maka Anda telah berhasil. <br>
 <img src="docs/Praktikum1/Soal2_2.png" width="400"/> <br>
 
@@ -96,9 +96,7 @@ Jelaskan maksud kode langkah 2 tersebut!
 
 #### **Jawaban:**
 Kode pada langkah 2 menambahkan variabel late `completer`, method `getNumber`, dan method `calculate`. <br>
-
-**Completer** adalah kelas di Dart yang digunakan untuk mengontrol penyelesaian (completion) sebuah Future secara manual. Dengan Completer, kita dapat menentukan kapan dan bagaimana sebuah Future selesai, baik dengan nilai sukses (complete) maupun kesalahan (completeError). Variabel completer dideklarasikan sebagai late, yang berarti Variabel akan diinisialisasi nanti sebelum digunakan.
-<br>
+**Completer** adalah kelas di Dart yang digunakan untuk mengontrol penyelesaian (completion) sebuah Future secara manual. Dengan Completer, kita dapat menentukan kapan dan bagaimana sebuah Future selesai, baik dengan nilai sukses (complete) maupun kesalahan (completeError). Variabel completer dideklarasikan sebagai late, yang berarti Variabel akan diinisialisasi nanti sebelum digunakan.<br>
 
 **Method getNumber** <br>
 - completer = Completer<int>() <br>
@@ -106,8 +104,7 @@ Membuat instance baru dari Completer yang akan menyelesaikan sebuah Future berti
 - calculate(); <br>
 Memulai proses perhitungan asinkron. Hasil perhitungan ini akan melengkapi (complete) Future yang dihasilkan oleh Completer. <br>
 - return completer.future; <br>
-Mengembalikan Future yang terkait dengan Completer. Future ini digunakan oleh kode pemanggil untuk menunggu hasil perhitungan.
-<br>
+Mengembalikan Future yang terkait dengan Completer. Future ini digunakan oleh kode pemanggil untuk menunggu hasil perhitungan.<br>
 
 **Method calculate** <br>
 - await Future.delayed <br>
@@ -115,13 +112,11 @@ Mensimulasikan proses yang memakan waktu, seperti perhitungan atau pengambilan d
 - completer.complete(42) <br>
 Menyelesaikan Future yang terkait dengan Completer dan memberikan nilai 42 sebagai hasilnya.
 <br>
-<br>
 
 Jadi, **Maksud kode pada langkah 2**:
 1.  Mensimulasikan proses yang butuh waktu 5 detik (seperti menghitung sesuatu atau mengambil data).
 2. Menggunakan Completer untuk mengatur kapan hasil proses selesai, sehingga kita bisa memberikan nilai hasil (yaitu angka 42) setelah proses selesai.
 3. Mengembalikan nilai 42 sebagai hasil operasi setelah 5 detik.
-<br>
 <br>
 
 ### **Soal 6**
@@ -214,7 +209,7 @@ Hasil setelah memanggil method handleError() ke ElevatedButton <br>
 ### **Soal 11**
 Tambahkan nama panggilan Anda pada tiap properti title sebagai identitas pekerjaan Anda. <br>
 
-#### **Pengerjaan: **
+#### **Pengerjaan:**
 <img src="docs/Praktikum6/JawabanSoal11.png" width="400"/>
 
 <br>
@@ -269,8 +264,7 @@ Namun, jika terjadi error (misalnya izin lokasi ditolak atau layanan lokasi dima
 - Silakan ganti dengan warna tema favorit Anda. <br>
 
 #### **Pengerjaan:** <br>
-<img src="docs/Praktikum8/JawabanSoal15.png" width="400"/>
-<br>
+<img src="docs/Praktikum8/JawabanSoal15.png" width="400"/> <br>
 <img src="docs/Praktikum8/JawabanSoal15_2.png" width="400"/>
 
 <br>
