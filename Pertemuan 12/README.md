@@ -23,8 +23,8 @@ Ketiklah kode seperti berikut ini.
 
 > ### **Soal 1** <br>
 > - Tambahkan **nama panggilan Anda** pada `title` app sebagai identitas hasil pekerjaan Anda.
-> - Gantilah warna tema aplikasi sesuai kesukaan Anda.
-> <br>
+> - Gantilah warna tema aplikasi sesuai kesukaan Anda.<br>
+> 
 > #### **Pengerjaan:**
 > ![Soal 1](docs/Praktikum1/JawabanSoal1.png)
 <br>
@@ -45,8 +45,8 @@ Tambahkan variabel di dalam class `ColorStream` seperti berikut.
 
 
 > ### **Soal 2** <br>
-> Tambahkan 5 warna lainnya sesuai keinginan Anda pada variabel `colors` tersebut.
-> <br>
+> Tambahkan 5 warna lainnya sesuai keinginan Anda pada variabel `colors` tersebut. <br>
+> 
 > #### **Pengerjaan:**
 > ![Soal 2](docs/Praktikum1/JawabanSoal2.png)
 <br>
@@ -68,8 +68,8 @@ Tambahkan kode berikut ini.
 
 > ### **Soal 3** <br>
 > - Jelaskan fungsi keyword `yield*` pada kode tersebut!
-> - Apa maksud isi perintah kode tersebut?
-> <br>
+> - Apa maksud isi perintah kode tersebut? <br>
+> 
 > #### **Jawaban:**
 > yield* digunakan untuk meneruskan seluruh elemen dari iterable atau stream lain ke dalam stream yang sedang dihasilkan oleh generator function. <br>
 > Kode tersebut menghasilkan stream warna secara periodik setiap 1 detik dengan elemen warna yang dipilih dari daftar colors berdasarkan perhitungan indeks menggunakan operasi modulus. Warna-warna akan terus berulang selama stream aktif.
@@ -115,8 +115,8 @@ Sesuaikan kode seperti berikut.
 Lakukan running pada aplikasi Flutter Anda, maka akan terlihat berubah warna background setiap detik.
 
 > ### **Soal 4** <br>
-> Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
-> <br>
+> Capture hasil praktikum Anda berupa GIF dan lampirkan di README. <br>
+> 
 > #### **Pengerjaan:**
 > ![Soal 4](docs/Praktikum1/JawabanSoal4.gif)
 <br>
@@ -130,8 +130,8 @@ Anda boleh comment atau hapus kode sebelumnya, lalu ketika kode seperti berikut.
 
 
 > ### **Soal 5** <br>
-> Jelaskan perbedaan menggunakan `listen` dan `await for` (langkah 9)!
-> <br>
+> Jelaskan perbedaan menggunakan `listen` dan `await for` (langkah 9)! <br>
+> 
 > #### **Jawaban:**
 > `await for` digunakan untuk memproses elemen stream secara berurutan dan menunggu setiap elemen diproses satu per satu, sehingga kode akan terhenti hingga stream selesai. Hal ini cocok untuk stream yang finite atau jika kita ingin memastikan pemrosesan setiap elemen secara sinkron. Sementara itu, `listen` menggunakan pendekatan berbasis callback, di mana setiap elemen stream diproses segera setelah diterima, tanpa menghentikan eksekusi kode lainnya. Pendekatan ini lebih fleksibel, memungkinkan kita untuk menambahkan penanganan error dan notifikasi ketika stream selesai, dan lebih cocok untuk stream yang bersifat infinite atau ketika kita perlu menangani elemen secara bersamaan.
 <br>
@@ -240,8 +240,8 @@ Lakukan running pada aplikasi Flutter Anda, maka akan terlihat seperti gambar be
 > **Langkah 10:**<br>
 Berfungsi untuk menghasilkan angka acak dan mengirimnya ke stream melalui sink, sehingga listener pada langkah 8 dapat menerima data baru dan menampilkannya kepada pengguna. <br>
 > <br>
-> - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
-> <br>
+> - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.<br>
+> 
 > #### **Pengerjaan:**
 > ![Soal 6](docs/Praktikum2/JawabanSoal6.gif)
 <br>
@@ -280,8 +280,8 @@ Menambahkan penanganan error dengan onError pada listener stream di initState().
 > **Langkah 15:** <br>
 Mengubah fungsi addRandomNumber() untuk mengirim error menggunakan method addError() alih-alih angka acak, sehingga dapat menguji mekanisme penanganan error. <br>
 > <br>
-> - Kembalikan kode seperti semula pada Langkah 15, comment `addError()` agar Anda dapat melanjutkan ke praktikum 3 berikutnya.
-> <br>
+> - Kembalikan kode seperti semula pada Langkah 15, comment `addError()` agar Anda dapat melanjutkan ke praktikum 3 berikutnya. <br>
+> 
 > #### **Pengerjaan:**
 > ![Soal 7](docs/Praktikum2/JawabanSoal7.png)
 <br>
@@ -337,8 +337,8 @@ Mendefinisikan transformasi menggunakan StreamTransformer, dengan fungsi:
 > **Langkah 3:** <br>
 Menggunakan transformer dalam alur stream sehingga data yang diterima oleh listener sudah dimodifikasi atau divalidasi. <br>
 > <br>
-> - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
-> <br>
+> - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. <br>
+> 
 > #### **Pengerjaan:**
 > ![Soal 8](docs/Praktikum3/JawabanSoal8.gif)
 <br>
@@ -434,8 +434,8 @@ Di dalam dispose(), kita menutup stream dengan numberStreamController.close() da
 > **Langkah 8: addRandomNumber()** <br>
 Sebelum menambahkan data baru ke stream, aplikasi memeriksa apakah stream sudah ditutup menggunakan isClosed. Jika stream belum ditutup, data baru akan ditambahkan. Jika stream sudah ditutup, aplikasi akan mengatur nilai lastNumber ke -1 untuk menandakan kesalahan. <br>
 > <br>
-> - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
-> <br>
+> - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. <br>
+> 
 > #### **Pengerjaan:**
 > ![Soal 9](docs/Praktikum4/JawabanSoal9.gif)
 <br>
@@ -469,8 +469,8 @@ Lakukan run maka akan tampil error seperti gambar berikut.
 
 
 > ### **Soal 10** <br>
-> Jelaskan mengapa error itu bisa terjadi ?
-> <br>
+> Jelaskan mengapa error itu bisa terjadi ? <br>
+> 
 > #### **Jawaban:**
 > Error terjadi karena stream yang digunakan dalam kode bukan merupakan broadcast stream. Secara default, sebuah stream hanya dapat memiliki satu subscription pada suatu waktu. Ketika kita mencoba untuk membuat subscription kedua (subscription2) pada stream yang sama, Flutter memberikan error karena stream tersebut hanya dapat di-subscribe oleh satu listener.
 <br>
@@ -504,8 +504,8 @@ Tekan button ‘**New Random Number**' beberapa kali, maka akan tampil teks angk
 >
 > Karena kedua subscription mendengarkan stream yang sama, setiap angka yang dihasilkan oleh stream akan diproses dua kali, yaitu satu kali untuk masing-masing subscription. Akibatnya, nilai yang ditampilkan pada Text akan bertambah dua kali lipat setiap kali tombol ditekan, karena setiap event stream diterima oleh kedua subscription secara terpisah. <br>
 > <br>
-> - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
-> <br>
+> - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. <br>
+> 
 > #### **Pengerjaan:**
 > ![Soal 11](docs/Praktikum5/JawabanSoal11.gif)
 <br>
@@ -575,8 +575,8 @@ Hasilnya, setiap detik akan tampil angka baru seperti berikut.
 >
 > **Pada Langkah 7**, StreamBuilder digunakan untuk mendengarkan stream yang dihasilkan oleh numberStream. Ketika stream mengirimkan data, UI diperbarui untuk menampilkan angka terbaru. Jika terjadi error atau belum ada data, StreamBuilder menangani kondisi tersebut dengan menampilkan informasi yang sesuai. <br>
 > <br>
-> - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
-> <br>
+> - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. <br>
+> 
 > #### **Pengerjaan:**
 > ![Soal 12](docs/Praktikum6/JawabanSoal12.gif)
 <br>
@@ -689,8 +689,8 @@ Ketika pengguna menekan tombol, event dikirim ke BLoC. Di sini, eventnya adalah 
 Setelah BLoC memproses event tersebut (menghasilkan angka acak), angka tersebut dikirimkan melalui stream ke UI (_randomNumberController).
 > 3. **Pemrosesan di BLoC:** <br> Logika untuk menghasilkan angka acak terjadi di dalam BLoC. UI hanya menunggu data (angka acak) dari BLoC, dan ketika data diterima, UI akan menampilkan angka tersebut. <br>
 <br>
-> - Capture hasil praktikum Anda berupa GIF dan lampirkan di README.
-> <br>
+> - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. <br>
+> 
 > #### **Pengerjaan:**
 > ![Soal 13](docs/Praktikum7/JawabanSoal13.gif)
 <br>
