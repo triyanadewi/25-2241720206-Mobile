@@ -687,10 +687,9 @@ Satu lagi untuk mengirim data (angka acak yang sudah dihitung) ke UI.
 > 2. **Event dan Stream:** <br>
 Ketika pengguna menekan tombol, event dikirim ke BLoC. Di sini, eventnya adalah perintah untuk menghasilkan angka acak (ini terjadi di _generateRandomController).
 Setelah BLoC memproses event tersebut (menghasilkan angka acak), angka tersebut dikirimkan melalui stream ke UI (_randomNumberController).
-> 3. **Pemrosesan di BLoC:** <br> Logika untuk menghasilkan angka acak terjadi di dalam BLoC. UI hanya menunggu data (angka acak) dari BLoC, dan ketika data diterima, UI akan menampilkan angka tersebut. <br>
-<br>
+> 3. **Pemrosesan di BLoC:** <br> Logika untuk menghasilkan angka acak terjadi di dalam BLoC. UI hanya menunggu data (angka acak) dari BLoC, dan ketika data diterima, UI akan menampilkan angka tersebut.<br>
+>
 > - Capture hasil praktikum Anda berupa GIF dan lampirkan di README. <br>
 > 
 > #### **Pengerjaan:**
 > ![Soal 13](docs/Praktikum7/JawabanSoal13.gif)
-<br>
