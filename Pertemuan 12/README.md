@@ -7,6 +7,7 @@
 > Nomor : 25 <br/>
 
 ---
+<<<<<<< HEAD
 
 ## **Praktikum 1: Dart Streams**
 ### **Langkah 1: Buat Project Baru**
@@ -693,3 +694,6 @@ Setelah BLoC memproses event tersebut (menghasilkan angka acak), angka tersebut 
 > #### **Pengerjaan:**
 > ![Soal 13](docs/Praktikum7/JawabanSoal13.gif)
 <br>
+=======
+**Link Laporan Praktikum dan Soal:** https://github.com/triyanadewi/25-2241720206-Mobile/blob/main/Pertemuan%2012/src/stream_triyana/README.md
+>>>>>>> 6380e918b6547301ac501e9cd79d132a7c60b4a3
